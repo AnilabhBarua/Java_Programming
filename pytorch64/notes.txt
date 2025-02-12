@@ -1,0 +1,129 @@
+Java Exam Notes
+Array
+Arrays are a fundamental data structure in Java, used to store multiple values of the same type in contiguous
+memory locations. They are of fixed size and allow indexed access to their elements.
+Example:
+Example:
+int[] numbers = {1, 2, 3, 4, 5};
+for (int num : numbers) {
+ System.out.println(num); // Outputs each number
+}
+
+Java Statement
+Java statements are instructions that a program executes. They include control flow statements, declaration
+statements, and expression statements.
+Example:
+Example:
+int x = 10;
+if (x > 5) {
+ System.out.println("x is greater than 5");
+}
+
+For-Each Loop
+The for-each loop simplifies iteration over arrays and collections, ensuring you don't encounter indexing
+errors.
+Example:
+Example:
+String[] fruits = {"Apple", "Banana", "Cherry"};
+for (String fruit : fruits) {
+ System.out.println(fruit); // Outputs each fruit
+}
+
+Class and Object
+A class is a blueprint for creating objects, which are instances of the class. Classes define properties (attributes)
+and behaviors (methods).
+Example:
+Example:
+class Car {
+ String color;
+ void drive() {
+ System.out.println("Driving the car.");
+ }
+}
+Car myCar = new Car();
+myCar.color = "Red";
+myCar.drive();
+Final Modifier
+The 'final' keyword is used to declare constants, prevent method overriding, or prevent inheritance of classes.
+Example:
+Example:
+final int MAX = 100;
+final class A { } // Cannot be extended
+Static Modifier
+The 'static' keyword allows variables or methods to belong to the class rather than any object instance.
+Example:
+Example:
+class Counter {
+ static int count = 0;
+ Counter() {
+ count++;
+ }
+ static void displayCount() {
+ System.out.println("Count: " + count);
+ }
+}
+
+Abstract Modifier
+Abstract classes and methods provide a way to define a contract for subclasses without implementing all
+details.
+Example:
+Example:
+abstract class Animal {
+ abstract void sound();
+}
+class Dog extends Animal {
+ void sound() {
+ System.out.println("Bark");
+ }
+}
+
+Method Overloading
+Allows multiple methods in the same class to have the same name but different parameter lists.
+Example:
+Example:
+class MathUtils {
+ int add(int a, int b) { return a + b; }
+ double add(double a, double b) { return a + b; }
+}
+
+Inheritance
+Inheritance enables a child class to acquire properties and behaviors from a parent class, promoting reusability.
+Example:
+Example:
+class Parent {
+ void show() { System.out.println("Parent class"); }
+}
+class Child extends Parent {
+ void display() { System.out.println("Child class"); }
+}
+
+Abstraction
+Hides implementation details and exposes only essential features, enhancing security and readability.
+Example:
+Example:
+abstract class Shape {
+ abstract void draw();
+}
+class Circle extends Shape {
+ void draw() { System.out.println("Drawing Circle"); }
+}
+
+Java Swing
+A library for creating graphical user interfaces (GUIs) in Java, providing components like buttons, text fields,
+and windows.
+Example:
+Example:
+JFrame frame = new JFrame("Swing Example");
+JButton button = new JButton("Click Me");
+frame.add(button);
+frame.setSize(300, 200);
+frame.setVisible(true);
+TCP and UDP Server/Client
+TCP is reliable and connection-oriented, while UDP is faster but connectionless, making it suitable for
+applications like video streaming.
+Example:
+Example (TCP Client):
+Socket clientSocket = new Socket("localhost", 6789);
+PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+out.println("Hello Server");
+clientSocket.close(); 

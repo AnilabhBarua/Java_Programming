@@ -1,0 +1,126 @@
+Here’s a comprehensive set of **Java programming questions** for the topics you provided, along with combined ones:
+
+---
+
+### **Questions Based on Specific Topics**
+
+#### **1. Arrays**
+1. Write a program to find the largest and smallest element in an array.
+2. Write a program to calculate the sum of all elements in an array.
+3. Write a program to find the second largest number in an array.
+4. Write a program to reverse an array.
+5. Write a program to check if two arrays are equal.
+6. Write a program to find the frequency of each element in an array.
+7. Write a program to remove duplicate elements from an array.
+8. Write a program to sort an array in ascending order without using predefined methods.
+9. Write a program to merge two arrays into one.
+10. Write a program to rotate an array to the right by a given number of steps.
+11. Write a program to find the intersection of two arrays.
+12. Write a program to find the union of two arrays.
+13. Write a program to count the occurrences of a specific number in an array.
+14. Write a program to find the index of the first occurrence of a specific element in an array.
+15. Write a program to copy elements of one array to another.
+
+---
+
+#### **2. Java Statements**
+1. Write a program to display numbers from 1 to 100 using a for loop.
+2. Write a program to calculate the sum of all even numbers between 1 and 50.
+3. Write a program to display Fibonacci numbers up to a given term using a loop.
+4. Write a program to find whether a given number is prime or not using a while loop.
+5. Write a program to find the factorial of a number using nested loops.
+6. Write a program to calculate the power of a number using a for loop.
+7. Write a program to generate a multiplication table for a given number.
+8. Write a program to print a pattern (e.g., pyramid, reverse pyramid) using nested loops.
+9. Write a program to check if a number is an Armstrong number.
+10. Write a program to reverse a given number using a while loop.
+11. Write a program to calculate the GCD of two numbers using a loop.
+12. Write a program to convert decimal to binary.
+13. Write a program to calculate the sum of the digits of a number.
+14. Write a program to count the number of digits in a number.
+15. Write a program to print prime numbers within a given range.
+
+---
+
+#### **3. For-Each Loop**
+1. Write a program to calculate the sum of elements in an array using a for-each loop.
+2. Write a program to find the largest number in an array using a for-each loop.
+3. Write a program to calculate the average of elements in an array using a for-each loop.
+4. Write a program to traverse a 2D array using a for-each loop.
+5. Write a program to print all odd numbers from an array using a for-each loop.
+6. Write a program to count negative numbers in an array using a for-each loop.
+7. Write a program to find the sum of even numbers in an array using a for-each loop.
+8. Write a program to count vowels in a given string using a for-each loop.
+9. Write a program to print characters of a string in reverse order using a for-each loop.
+10. Write a program to display square of each number in an array using a for-each loop.
+11. Write a program to find duplicate elements in an array using a for-each loop.
+12. Write a program to count occurrences of a specific word in an array of strings using a for-each loop.
+13. Write a program to filter out numbers greater than a specific value from an array using a for-each loop.
+14. Write a program to print elements of a list using a for-each loop.
+15. Write a program to find the sum of diagonal elements of a 2D array using a for-each loop.
+
+---
+
+#### **4. Class and Objects**
+1. Write a program to define a class `Rectangle` with methods to calculate area and perimeter. Create two objects and compare their areas.
+2. Write a program to define a class `Book` with attributes title, author, and price. Create an array of 5 books and display their details.
+3. Write a program to define a class `Student` with methods to calculate total marks and grade. Create multiple student objects and print their grades.
+4. Write a program to implement a class `BankAccount` with deposit and withdraw methods. Perform operations on two accounts.
+5. Write a program to define a class `Employee` with a method to calculate monthly salary. Create multiple employee objects and display their salaries.
+6. Write a program to create a class `Circle` and implement both parameterized and default constructors.
+7. Write a program to define a class `Car` with a method to calculate mileage. Create objects and call the method.
+8. Write a program to define a class `Person` with attributes name and age. Create objects and display details.
+9. Write a program to create a class `Laptop` with methods to get and set specifications. Create objects and display their specifications.
+10. Write a program to create a class `Shape` with methods to calculate area of square and rectangle.
+11. Write a program to define a class `Date` with attributes day, month, and year. Implement a method to display the date.
+12. Write a program to create a class `Product` with methods to calculate and display the total price (price + tax).
+13. Write a program to define a class `Calculator` with methods to perform basic arithmetic operations.
+14. Write a program to implement a class `Vehicle` with attributes brand, model, and price. Create and display object details.
+15. Write a program to create a class `Time` with methods to add two times and display the result.
+
+---
+
+#### **5. Final, Static, and Abstract Modifiers**
+1. Write a program to demonstrate the use of `final` keyword with a variable, method, and class.
+2. Write a program to demonstrate the use of `static` variables and methods in a class.
+3. Write a program to create a class with a `final` method. Try to override it in a subclass.
+4. Write a program to define an `abstract` class `Animal` with an abstract method `sound`. Implement it in subclasses `Dog` and `Cat`.
+5. Write a program to demonstrate the use of `static` blocks in a class.
+6. Write a program to implement a `final` class and create its object.
+7. Write a program to use a `static` method for calculating factorial.
+8. Write a program to create an abstract class `Shape` with an abstract method `area`. Implement it for `Circle` and `Rectangle`.
+9. Write a program to define a `static` counter variable in a class.
+10. Write a program to use a `static` nested class.
+11. Write a program to demonstrate the difference between `static` and instance variables.
+12. Write a program to define an abstract class `Vehicle` with abstract methods `start` and `stop`.
+13. Write a program to show that final variables cannot be reassigned.
+14. Write a program to demonstrate how abstract classes cannot be instantiated.
+15. Write a program to create a static method to calculate compound interest.
+
+---
+
+### **Combined Topics (20 Questions)**
+1. Write a program that uses an abstract class `Shape` with subclasses `Circle` and `Square`. Use arrays to store and display areas of multiple shapes.
+2. Create a program that implements exception handling to handle an array index out-of-bounds exception.
+3. Write a program that defines a `Student` class and uses inheritance to create `GraduateStudent`. Use try-catch for input validation.
+4. Write a program to create a TCP server-client application for string reversal.
+5. Write a program that uses a for-each loop to calculate the total marks of multiple students.
+6. Write a program to create a class `Calculator` that overloads methods for addition (int, double, and arrays).
+7. Create a program that demonstrates inheritance with a `Person` class and subclasses `Employee` and `Customer`. 
+8. Write a program that uses Swing to create a GUI for user login, using exception handling for validation.
+9. Write a program to implement UDP server-client for sending and receiving messages.
+10. Write a program that uses `final` and `static` keywords in a class representing a `Library`.
+11. Write a program to define a class `Shape` with methods for area calculation, combined with array usage.
+12. Write a program to demonstrate multi-level inheritance in a banking application.
+13. Write a program to create a simple calculator using Swing.
+14. Write a program to manage student details using arrays, with methods to search and update records.
+15. Write a program that combines exception handling and arrays to validate and sort user inputs.
+16. Write a program to implement method overloading in a class for different types of string operations.
+17. Write a program to demonstrate the use of an abstract class in a multi-threaded application.
+18. Write a program to manage employee records using both inheritance and exception handling.
+19. Write a program to create a GUI for a library management system using Swing.
+20. Write a program that demonstrates the combined use of `static`, `final`, and abstract classes in a library management system.
+
+---
+
+Let me know if you'd like implementation help for any of these!
